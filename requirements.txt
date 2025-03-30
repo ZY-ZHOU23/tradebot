@@ -1,0 +1,18 @@
+# Core dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+cryptography==42.0.5  # For handling private key encryption
+urllib3==2.3.0  # Required by requests
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Testing
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Development tools
+black==24.1.1
+flake8==7.0.0
+isort==5.13.2 
